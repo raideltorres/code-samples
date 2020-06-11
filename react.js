@@ -204,7 +204,7 @@ class Category extends Component {
   render() {
     return (
       <div>
-        <div id=\"graph\"></div>
+        <div id="graph"></div>
 
         <Tabs onChange={this.onChange} defaultSelectedIndex={0} justified={true}>
           { this.getTabs(this.props.categories) }
@@ -254,7 +254,7 @@ class Attributes extends Component {
       return (
         <Row>
           <Col xs={12}>
-            <Button color=\"primary\" onClick={this.handleAddAttribute.bind(this)}>Add Attribute</Button>
+            <Button color="primary" onClick={this.handleAddAttribute.bind(this)}>Add Attribute</Button>
           </Col>
         </Row>
       );
